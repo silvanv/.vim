@@ -22,8 +22,8 @@ LuciusBlackLowContrast         " activate the lucius color scheme
 
 " Spaces & Tabs
 " ---------------------------------------------------------
-set tabstop=4                  " number of visual spaces per TAB
-set softtabstop=4              " number of spaces in tab when editing
+set tabstop=2                  " number of visual spaces per TAB
+set softtabstop=2              " number of spaces in tab when editing
 set expandtab                  " tabs are spaces
 
 " Emphasize trailing spaces
@@ -49,6 +49,7 @@ set cursorline                 " highlight current line
 set wildmenu                   " visual autocomplete for command menu
 set lazyredraw                 " redraw only when we need to.
 set showmatch                  " highlight matching [{()}]
+set clipboard=unnamed
 filetype plugin indent on      " load filetype-specific indent files
 
 " Configure nerd tree
