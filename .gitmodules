@@ -40,3 +40,6 @@
 [submodule "bundle/vim-niji"]
 	path = bundle/vim-niji
 	url = git://github.com/amdt/vim-niji.git
+[submodule "bundle/vim-projectionist"]
+	path = bundle/vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
