@@ -25,3 +25,6 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-eastwood"]
+	path = bundle/vim-eastwood
+	url = https://github.com/venantius/vim-eastwood.git
