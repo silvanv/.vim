@@ -65,8 +65,6 @@ autocmd vimenter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " close vim if nerd tree is the only buffer left
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-map <C-n> :NERDTreeToggle<CR>
-
 " Tmux
 " ---------------------------------------------------------
 " allows cursor change in tmux mode
@@ -77,4 +75,14 @@ else
     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+
+
+" Custom shortcuts
+" ---------------------------------------------------------
+
+map <C-n> :NERDTreeToggle<CR>
+
+map <C-l> ::set number! number?<CR>
+
+
 
